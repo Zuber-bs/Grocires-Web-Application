@@ -1,0 +1,33 @@
+.AddButton {
+    background-color: chartreuse;
+    margin: 30px;
+    border: none;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.AddButton:hover {
+    background-color: black;
+    color: chartreuse;
+}
+
+#addButton:disabled {
+    background-color: rgb(81, 160, 2);
+    color: aliceblue;
+}
+
+#saveButton {
+    align-self: right;
+    padding: 5px;
+    background-color: chartreuse;
+    border: none;
+    color: white;
+    transition-duration: 400ms;
+}
+
+#saveButton:hover {
+    background-color: black;
+    color: chartreuse;
+}
